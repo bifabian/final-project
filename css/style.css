@@ -1,0 +1,45 @@
+section {
+    position: relative;
+}
+
+hr {
+    background-color: white;
+}
+
+.about,
+.portfolio,
+.blog,
+.team,
+.contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#about p {
+    font-size: large;
+}
+
+header {
+    height: 650px;
+    display: flex;
+    align-items: center;
+}
+
+.img-portfolio {
+    width: 300px;
+    border-radius: 3%;
+    margin: 20px auto;
+}
+
+.card,
+.team {
+    margin: auto;
+}
+
+.img-team {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10%;
+}
+
