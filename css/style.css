@@ -20,14 +20,22 @@ hr {
 }
 
 header {
-    height: 650px;
+    height: 710px;
     display: flex;
     align-items: center;
+}
+.img-profile {
+    display: flex;
+    justify-content: center;
+}
+
+.about img {
+    width: 150px;
+    margin: 10px auto;
 }
 
 .img-portfolio {
     width: 300px;
-    border-radius: 3%;
     margin: 20px auto;
 }
 
@@ -40,6 +48,4 @@ header {
     width: 200px;
     height: 200px;
     margin: 10px;
-    border-radius: 10%;
 }
-
